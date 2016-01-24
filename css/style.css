@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'masterOfBreak';
+        src: url('/css/master_of_break.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  /*background-color: #;*/
+}
+
+button {
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  box-shadow: 1px 1px 10px #000;
+}
+
+h1 {
+  font-family: 'masterOfBreak';
+  font-weight: normal;
+  font-style: normal;
+  text-shadow: 5px 5px 10px #000;
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
+#mainContainer {
+  text-align: center;
+  border: solid;
+  width: 100%;
+  height: 100%;
+}
+
+#header {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  /*Esthetic part*/
+  border: dashed;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #000;
+
+
+}
+
+#quotes {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px 10px 10px;
+  width: 35%;
+  /*Esthetic part*/
+  border: dashed;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #000;
+}
