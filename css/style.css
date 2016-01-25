@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'masterOfBreak';
-        src: url('/css/master_of_break.otf') format('opentype');
+        src: url('master_of_break.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-  /*background-color: #;*/
+  background-color: #BBD;
 }
 
 button {
   border-radius: 20px;
-  width: 100px;
+  width: 120px;
   height: 50px;
-  background-color: red;
+  background-color: #99B;
   box-shadow: 1px 1px 10px #000;
 }
 
@@ -24,17 +24,9 @@ h1 {
   text-shadow: 5px 5px 10px #000;
 }
 
-h3 {
-
-}
-
-p {
-
-}
-
 #mainContainer {
   text-align: center;
-  border: solid;
+  /*border: solid;*/
   width: 100%;
   height: 100%;
 }
@@ -44,23 +36,23 @@ p {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 30%;
   /*Esthetic part*/
-  border: dashed;
+  /*border: dashed;*/
+  padding: 10px 40px 10px 40px;
   border-radius: 10px;
   box-shadow: 1px 1px 10px #000;
-
-
+  background-color: #CCE;
 }
 
 #quotes {
-  margin-top: 10px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 40px 10px 40px;
   width: 35%;
   /*Esthetic part*/
-  border: dashed;
+  /*border: dashed;*/
   border-radius: 10px;
   box-shadow: 1px 1px 10px #000;
 }

@@ -12,6 +12,6 @@ $(document).ready(function () {
 function generateRandomQuote() {
   $.getJSON('json/fortunes.json', function (result) {
     var randomQuote = Math.floor(Math.random() * (result.length));
-    $("#quotes").html("<h3>"+result[randomQuote].replace("―","<br>-")+"</h3>");
+    $("#quotes").html("<h3>"+result[randomQuote].split("―").join("<br>-")+"</h3>");
   });
 }
